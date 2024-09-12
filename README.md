@@ -1,2 +1,2 @@
 Integrantes:
-Nicolas Chioveta, Adrian Leroy, Gerardo Quispe, Luisina Muller
+Nicolas Chiovetta, Adrian Leroy, Gerardo Quispe, Luisina Muller
