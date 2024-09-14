@@ -1,0 +1,12 @@
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\bin\Debug\ClubDeportivo1.exe.config
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\bin\Debug\ClubDeportivo1.exe
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\bin\Debug\ClubDeportivo1.pdb
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.csproj.AssemblyReference.cache
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.Form1.resources
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.Properties.Resources.resources
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.csproj.GenerateResource.cache
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.csproj.CoreCompileInputs.cache
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.exe
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.pdb
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.Form2.resources
+C:\Users\nuevaasus\Desktop\curso-html\ProyectoDSOO\ClubDeportivo1\obj\Debug\ClubDeportivo1.Form3.resources
