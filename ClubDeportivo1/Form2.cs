@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace ClubDeportivo1
 {
-    
+
     public partial class Form2 : Form
     {
         Club club = new Club();
-        public Form2()
+        public Form2(Club club2)
         {
+            club = club2;
             InitializeComponent();
-
-            club.altaSocio("sdr", 22554568);
-            club.altaSocio("rrrrr", 25486154);
-            club.altaSocio("kkkk", 3366596);
-
-            club.altaSocio("eeeeee", 4456874);
+            
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -31,6 +28,11 @@ namespace ClubDeportivo1
 
             club.altaSocio(nombre.Text,int.Parse(dni.Text));
             club.listar();
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

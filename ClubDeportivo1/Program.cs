@@ -14,9 +14,14 @@ namespace ClubDeportivo1
         [STAThread]
         static void Main()
         {
+
+            
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form3());
+
+            Club club = new Club();
+
         }
     }
 }

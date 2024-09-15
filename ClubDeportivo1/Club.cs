@@ -8,34 +8,39 @@ using System.Windows.Forms;
 
 namespace ClubDeportivo1
 {
-    internal class Club
+    public class Club
     {
-        private List<Socio> sociosLista;
-        private List<ActDeportiva> act;
+        private List<Socio> SociosLista;
+        private List<ActDeportiva> Act;
 
+        
+        
         public Club() 
         {
-            this.sociosLista = new List<Socio>();
-            this.act = new List<ActDeportiva>();
+            this.SociosLista = new List<Socio>();
+            this.Act = new List<ActDeportiva>();
         }
 
         public void cargarDeporte() 
         {
-            act.Add(new ActDeportiva(1,"Futbol", 50));
-            act.Add(new ActDeportiva(2,"Tenis", 20));
-            act.Add(new ActDeportiva(3,"Natacion", 30));
-            act.Add(new ActDeportiva(4,"Basquet", 25));
+            Act.Add(new ActDeportiva(1,"Futbol", 50));
+            Act.Add(new ActDeportiva(2,"Tenis", 20));
+            Act.Add(new ActDeportiva(3,"Natacion", 30));
+            Act.Add(new ActDeportiva(4,"Basquet", 25));
 
-
+            SociosLista.Add(new Socio("Carlos", 2256));
+            SociosLista.Add(new Socio("Luis", 2257));
+            SociosLista.Add(new Socio("Miguel", 2258));
+            SociosLista.Add(new Socio("juan", 2259));
         }
         private Socio buscarSocio(int buscar) 
         {
-            return sociosLista.Find(socio => socio.getId().Equals(buscar));
+            return SociosLista.Find(socio => socio.getId().Equals(buscar));
         }
         
         private ActDeportiva buscarAct(string acti) 
         {
-            return act.Find(activ => activ.Deporte.Equals(acti));
+            return Act.Find(activ => activ.Deporte.Equals(acti));
         }
 
         public bool altaSocio(string nombre, int dni)
@@ -46,7 +51,7 @@ namespace ClubDeportivo1
             if (socio == null)
             {
                 socio = new Socio(nombre, dni);
-                sociosLista.Add(socio);
+                SociosLista.Add(socio);
                 resultado = true;
             }
             else { /* si esta repetido el socio*/
@@ -56,7 +61,7 @@ namespace ClubDeportivo1
         }
         public void listar()
         {
-            foreach (Socio soc in sociosLista) Console.WriteLine(soc.ToString());
+            foreach (Socio soc in SociosLista) Console.WriteLine(soc.ToString());
         }
 
         public bool inscribirActividad(string nomDeporte, int dni)
@@ -88,6 +93,7 @@ namespace ClubDeportivo1
                     socio.SetActs(bus.Id);
                     bus.Cupo--;
                     resultado = true;
+                    MessageBox.Show("Inscripción exitosa");
                     break;
                 case 404:
                     MessageBox.Show("ACTIVIDAD INEXISTENTE");

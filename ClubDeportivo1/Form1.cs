@@ -16,36 +16,20 @@ namespace ClubDeportivo1
 
 
 
-        public Form1()
+        public Form1(Club i)
         {
+            club = i;
             InitializeComponent();
-            
-            
+            club.listar();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            club.cargarDeporte();
-
-            
-            club.altaSocio("sdr", 22554568);
-            club.altaSocio("rrrrr", 25486154);
-            club.altaSocio("kkkk", 3366596);
-           
-            club.altaSocio("eeeeee", 4456874);
             
 
-
-            club.listar();
+            
            
-         
-            /*   club.inscribirActividad("Tenis", 3366596);
-            club.inscribirActividad("Tenis", 23366596);
-            club.inscribirActividad("Tenis", 3366596);
-            club.inscribirActividad("Tenis", 3366596);
-         */
-            club.listar();
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -69,6 +53,7 @@ namespace ClubDeportivo1
 
         private void button1_Click(object sender, EventArgs e)
         {
+            club.listar();
             club.inscribirActividad(selecDeporte.SelectedItem.ToString(), int.Parse(entradaDni.Text));
         }
     }
