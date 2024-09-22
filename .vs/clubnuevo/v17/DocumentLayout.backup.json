@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\",
+  "WorkspaceRootPath": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|solutionrelative:clubnuevo\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|solutionrelative:clubnuevo\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|c:\\users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|c:\\users\\nuevaasus\\desktop\\curso-html\\proyectodsoo\\clubnuevo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|solutionrelative:clubnuevo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|c:\\users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|solutionrelative:clubnuevo\\class3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|solutionrelative:clubnuevo\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{496F94D7-C0AA-4F18-A424-00DBA735428B}|clubnuevo\\clubnuevo.csproj|solutionrelative:clubnuevo\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 162,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Program.cs",
               "RelativeDocumentMoniker": "clubnuevo\\Program.cs",
-              "ToolTip": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Program.cs",
+              "ToolTip": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Program.cs",
               "RelativeToolTip": "clubnuevo\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-21T18:26:54.724Z",
               "EditorCaption": ""
@@ -45,40 +45,37 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Class3.cs",
-              "DocumentMoniker": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Class3.cs",
+              "DocumentMoniker": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Class3.cs",
               "RelativeDocumentMoniker": "clubnuevo\\Class3.cs",
-              "ToolTip": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Class3.cs",
+              "ToolTip": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Class3.cs",
               "RelativeToolTip": "clubnuevo\\Class3.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:20:20.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T18:20:20.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Class2.cs",
-              "DocumentMoniker": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Class2.cs",
+              "DocumentMoniker": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Class2.cs",
               "RelativeDocumentMoniker": "clubnuevo\\Class2.cs",
-              "ToolTip": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Class2.cs",
+              "ToolTip": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Class2.cs",
               "RelativeToolTip": "clubnuevo\\Class2.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:18:48.165Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T18:18:48.165Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Class1.cs",
+              "DocumentMoniker": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Class1.cs",
               "RelativeDocumentMoniker": "clubnuevo\\Class1.cs",
-              "ToolTip": "C:\\Users\\nuevaasus\\source\\repos\\clubnuevo\\clubnuevo\\Class1.cs",
+              "ToolTip": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubnuevo\\Class1.cs",
               "RelativeToolTip": "clubnuevo\\Class1.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T18:18:00.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T18:18:00.879Z"
             }
           ]
         }

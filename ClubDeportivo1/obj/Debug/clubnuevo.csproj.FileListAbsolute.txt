@@ -1,7 +1,0 @@
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\obj\Debug\clubnuevo.csproj.AssemblyReference.cache
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\obj\Debug\clubnuevo.csproj.CoreCompileInputs.cache
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\bin\Debug\clubnuevo.exe.config
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\bin\Debug\clubnuevo.exe
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\bin\Debug\clubnuevo.pdb
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\obj\Debug\clubnuevo.exe
-C:\Users\nuevaasus\source\repos\clubnuevo\clubnuevo\obj\Debug\clubnuevo.pdb
