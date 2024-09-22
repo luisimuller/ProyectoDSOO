@@ -1,26 +1,41 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
 
-namespace ClubDeportivo1
+namespace clubnuevo
 {
-    internal static class Program
+    internal class Program
     {
-        /// <summary>
-        /// Punto de entrada principal para la aplicación.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
 
-            
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
 
             Club club = new Club();
+            
+            club.cargarDeporte();
+
+
+            club.altaSocio("sdr", 22554568);
+            club.altaSocio("rrrrr", 25486154);
+            club.altaSocio("kkkk", 3366596);
+            club.altaSocio("kkkk", 3366596);
+            club.altaSocio("eeeeee", 4456874);
+            club.menu();
+
+
+            club.listar();
+          /*  club.inscribirActividad("Tenis", 3366596);
+            club.inscribirActividad("Tenis", 23366596);
+            club.inscribirActividad("Tenis", 3366596);
+            club.inscribirActividad("Tenis", 3366596);
+          */
+            club.listar();
+
+
+
+
 
         }
     }

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubdeportivo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|c:\\users\\nuevaasus\\desktop\\curso-html\\proyectodsoo\\clubdeportivo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|solutionrelative:clubdeportivo1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -19,7 +19,7 @@
       "RelativeMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|solutionrelative:clubdeportivo1\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|c:\\users\\nuevaasus\\desktop\\curso-html\\proyectodsoo\\clubdeportivo1\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\clubdeportivo1\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DC731AAE-1DB3-4054-8519-B11B10D7DDA3}|ClubDeportivo1\\ClubDeportivo1.csproj|solutionrelative:clubdeportivo1\\club.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -46,8 +46,7 @@
               "RelativeToolTip": "ClubDeportivo1\\Form3.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T19:12:54.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T19:12:54.794Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "ClubDeportivo1\\Program.cs",
               "ToolTip": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\ClubDeportivo1\\Program.cs",
               "RelativeToolTip": "ClubDeportivo1\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-14T22:50:34.433Z",
               "EditorCaption": ""
@@ -72,8 +71,7 @@
               "RelativeToolTip": "ClubDeportivo1\\Form1.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T22:49:22.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T22:49:22.58Z"
             },
             {
               "$type": "Document",
@@ -85,8 +83,7 @@
               "RelativeToolTip": "ClubDeportivo1\\Form2.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T22:48:38.606Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T22:48:38.606Z"
             },
             {
               "$type": "Document",
@@ -97,8 +94,7 @@
               "ToolTip": "C:\\Users\\nuevaasus\\Desktop\\curso-html\\ProyectoDSOO\\ClubDeportivo1\\Form2.cs [Dise\u00F1o]",
               "RelativeToolTip": "ClubDeportivo1\\Form2.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T22:48:36.813Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-09-14T22:48:36.813Z"
             },
             {
               "$type": "Document",
@@ -110,8 +106,7 @@
               "RelativeToolTip": "ClubDeportivo1\\Club.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T17:35:27.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-14T17:35:27.767Z"
             }
           ]
         }
