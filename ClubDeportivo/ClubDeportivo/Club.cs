@@ -82,7 +82,7 @@ namespace ClubDeportivo
                         InscribirActividad();
                         break;
                     case "4. SALIR":
-                        return; // Salir del menú
+                        return; 
                 }
 
                 AnsiConsole.WriteLine("Presione cualquier tecla para continuar...");
