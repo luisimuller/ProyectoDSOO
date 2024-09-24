@@ -14,14 +14,14 @@ namespace ClubDeportivo
 
             Club club = new Club();
 
-            club.CargarDeportes();
+            club.cargarDeportes();
 
 
-            club.AltaSocio("sdr", 22554568);
-            club.AltaSocio("rrrrr", 25486154);
-            club.AltaSocio("kkkk", 3366596);
-            club.AltaSocio("kkkk", 3366596);
-            club.AltaSocio("eeeeee", 4456874);
+            club.altaSocio("sdr", 22554568);
+            club.altaSocio("rrrrr", 25486154);
+            club.altaSocio("kkkk", 3366596);
+            club.altaSocio("kkkk", 3366596);
+            club.altaSocio("eeeeee", 4456874);
             club.menu();
 
 

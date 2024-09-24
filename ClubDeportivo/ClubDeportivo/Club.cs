@@ -18,7 +18,7 @@ namespace ClubDeportivo
             this.actividades = new List<ActivDeportiva>();
 
         }
-        public void CargarDeportes() {
+        public void cargarDeportes() {
             actividades.Add(new ActivDeportiva(1, "Futbol", 20));
             actividades.Add(new ActivDeportiva(1, "Voley", 30));
             actividades.Add(new ActivDeportiva(1, "Natacion", 40));
@@ -27,18 +27,19 @@ namespace ClubDeportivo
             actividades.Add(new ActivDeportiva(1, "Patin", 18));
             actividades.Add(new ActivDeportiva(1, "Rugby", 20));
         }
-        private Socio BuscarSocio(int dni) {
+        private Socio buscarSocio(int dni) {
             return ListaSocios.Find(socio => socio.getId().Equals(dni));
         }
-        private  ActivDeportiva BuscarActividad(string activ)
+
+        private  ActivDeportiva buscarActividad(string activ)
         {
             return actividades.Find(act =>act.Deporte != null && act.Deporte.ToLower().Equals(activ.ToLower()));
         }
-        public bool AltaSocio(string nombre, int dni)
+        public bool altaSocio(string nombre, int dni)
         {
             bool resultado;
             Socio socio;
-            socio = BuscarSocio(dni);
+            socio = buscarSocio(dni);
             if (socio == null)
             {
                 socio = new Socio(nombre, dni);
@@ -63,26 +64,24 @@ namespace ClubDeportivo
                 AnsiConsole.Clear();
                 AnsiConsole.MarkupLine("[bold yellow]=== Bienvenido al Menú Principal ===[/]");
 
-                
                 var choice = AnsiConsole.Prompt(
                     new SelectionPrompt<string>()
                         .Title("Seleccione una opción:")
                         .AddChoices(new[] { "1. LISTAR", "2. ALTA SOCIO", "3. INSCRIBIR ACTIVIDAD", "4. SALIR" }));
 
-                
                 switch (choice)
                 {
                     case "1. LISTAR":
                         listar();
                         break;
                     case "2. ALTA SOCIO":
-                        AltaSocio();
+                        altaSocio();  // Aquí estaba en mayúsculas, ya corregido
                         break;
                     case "3. INSCRIBIR ACTIVIDAD":
-                        InscribirActividad();
+                        inscribirActividad();  // Aquí también lo corregimos
                         break;
                     case "4. SALIR":
-                        return; 
+                        return;
                 }
 
                 AnsiConsole.WriteLine("Presione cualquier tecla para continuar...");
@@ -90,7 +89,7 @@ namespace ClubDeportivo
             }
         }
 
-        private void AltaSocio()
+        private void altaSocio()
         {
             string nombre = AnsiConsole.Ask<string>("Ingrese nombre:");
             int dni;
@@ -98,13 +97,13 @@ namespace ClubDeportivo
             {
                 AnsiConsole.MarkupLine("[red]Por favor, ingrese un número válido.[/]");
             }
-            if (!AltaSocio(nombre, dni))
+            if (!altaSocio(nombre, dni))
             {
                 AnsiConsole.MarkupLine("[red]Socio existente.[/]");
             }
         }
 
-        private void InscribirActividad()
+        private void inscribirActividad()
         {
             string actividad = AnsiConsole.Ask<string>("Ingrese nombre de la Actividad:");
             int dni;
@@ -114,8 +113,8 @@ namespace ClubDeportivo
             }
 
             int state = 200;
-            Socio socio = BuscarSocio(dni);
-            ActivDeportiva bus = BuscarActividad(actividad);
+            Socio socio = buscarSocio(dni);
+            ActivDeportiva bus = buscarActividad(actividad);
 
             // Lógica de inscripción
             if (bus == null)
