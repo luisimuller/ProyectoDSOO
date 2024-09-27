@@ -32,7 +32,7 @@ namespace ClubDeportivo
         public override string ToString()
         {
 
-            return "Nombre: " + this.nombre + " ID: " + this.Id + " actividad nro: " + pos;
+            return $"{" "+nombre,-25} {this.Id,-15} {pos,-25}";
         }
     }
 }

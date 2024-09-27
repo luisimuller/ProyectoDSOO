@@ -18,13 +18,22 @@ namespace ClubDeportivo
             this.actividades = new List<ActivDeportiva>();
 
         }
+        public void cargarSocios()
+        {
+
+            altaSocio("Jorge Daniel", 19145356);
+            altaSocio("Matilde Alvear", 25486154);
+            altaSocio("Laura Santillan", 33676596);
+            altaSocio("Nicolas Ordoñes", 33366596);
+            altaSocio("Maria Delgado", 4456874);
+        }
         public void cargarDeportes() {
             actividades.Add(new ActivDeportiva(1, "Futbol", 20));
             actividades.Add(new ActivDeportiva(1, "Voley", 30));
             actividades.Add(new ActivDeportiva(1, "Natacion", 40));
             actividades.Add(new ActivDeportiva(1, "Hockey", 20));
             actividades.Add(new ActivDeportiva(1, "Basquet", 25));
-            actividades.Add(new ActivDeportiva(1, "Patin", 18));
+            actividades.Add(new ActivDeportiva(1, "Patin", 2));
             actividades.Add(new ActivDeportiva(1, "Rugby", 20));
         }
         private Socio buscarSocio(int dni) {
@@ -54,7 +63,11 @@ namespace ClubDeportivo
         }
         public void listar()
         {
+            Console.WriteLine("\n Nonmbre                   DNI       Cant. de Act.   \n");
             foreach (Socio soc in ListaSocios) Console.WriteLine(soc.ToString());
+            
+            Console.WriteLine("\n  Deporte                Cupo  \n ");
+            foreach (ActivDeportiva act in actividades) Console.WriteLine(act.ToString());
         }
 
         public void menu()

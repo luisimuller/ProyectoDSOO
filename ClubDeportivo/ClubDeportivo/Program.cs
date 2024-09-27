@@ -16,22 +16,12 @@ namespace ClubDeportivo
 
             club.cargarDeportes();
 
+            club.cargarSocios();
 
-            club.altaSocio("sdr", 22554568);
-            club.altaSocio("rrrrr", 25486154);
-            club.altaSocio("kkkk", 3366596);
-            club.altaSocio("kkkk", 3366596);
-            club.altaSocio("eeeeee", 4456874);
             club.menu();
 
 
-            club.listar();
-            /*  club.inscribirActividad("Tenis", 3366596);
-              club.inscribirActividad("Tenis", 23366596);
-              club.inscribirActividad("Tenis", 3366596);
-              club.inscribirActividad("Tenis", 3366596);
-            */
-            club.listar();
+           
 
 
 

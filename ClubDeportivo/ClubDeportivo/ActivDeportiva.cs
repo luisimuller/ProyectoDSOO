@@ -27,7 +27,7 @@ namespace ClubDeportivo
         public override string ToString()
         {
 
-            return "df" + Cupo;
+            return $"{" "+deporte,-25} {cupo,-20}";
         }
     }
 }
